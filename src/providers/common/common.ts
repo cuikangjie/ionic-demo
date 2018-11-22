@@ -14,4 +14,6 @@ export class CommonProvider {
     this.plt = plt;
     plt.ready().then(() => {});
   }
+
+
 }
